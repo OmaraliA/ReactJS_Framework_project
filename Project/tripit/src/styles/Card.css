@@ -1,0 +1,25 @@
+.Card {
+    background-color: black;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    height: 330px;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem
+}
+
+.title{
+  width: 250px;
+  font-family: 'Avenir Next'
+}
+
+.card-header{
+  width: auto;
+  height: 250px;
+  background-size: cover;
+}
+
+.card-body {
+    height: 80px;
+}

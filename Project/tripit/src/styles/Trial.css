@@ -1,0 +1,14 @@
+#block {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    color: #dc7725;
+	text-transform: uppercase;
+	font-weight: 400;
+    flex-direction: column;
+    background-image: url(../img/back.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}

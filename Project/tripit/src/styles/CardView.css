@@ -1,0 +1,14 @@
+.CardView {
+    margin: 60px 0px 0px 80px;
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    perspective: 1000px;
+}
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+

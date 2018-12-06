@@ -1,0 +1,55 @@
+
+
+.name {
+    color: black;
+    padding-top:50px; 
+}
+
+#profile .trip-list-header{
+	background-image: url("https://arcticwild.com/wp-content/themes/arcticwild/assets/img/trips/category-header-trips.jpg");
+	background-color: #494946;
+	background-position: top center;
+	background-size: cover;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	padding: 200px 0;
+	height: 700px;
+	color: white;
+	
+}
+
+#prof {
+	border-radius:50%;
+	margin-top: 50px;
+}
+
+div {
+	color: black;
+}
+
+.left {
+	border-radius: 50px;
+	border-color:gray;
+	background-color: white;
+	border-style: solid;
+	height: 500px;
+	margin-left: 150px;
+	width: 600px;
+	
+}
+
+.right {
+	border-radius: 50px;
+	border-color:gray;
+	background-color: white;
+	border-style: solid;
+	height: 500px;
+	margin-left: 20px;
+	width: 500px;
+}
+
+.menu {
+	margin-top: 50px;
+}

@@ -1,0 +1,191 @@
+html, body {
+	overflow-x: hidden;
+}
+
+#main {
+	display: block;
+}
+
+#welcome{
+	height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    color: #dc7725;
+	text-transform: uppercase;
+	font-weight: 400;
+    flex-direction: column;
+    background-image: url(../img/back.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#welcome h2 {
+	margin-top: 15%;
+	font-family: 'Fjalla One',sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 6px;
+	text-shadow: 1px 1px 3px #844715;
+}
+
+#welcome h1 {
+	font-size: 120px;
+	line-height: 120px;
+	font-family: freight-big-pro,serif;
+	margin: 0;
+	padding: 0;
+}
+
+#welcome .heading-sep {
+	margin-top: 25px;
+	margin-bottom: 150px;
+	background: #dc7725;
+	width: 250px;
+	height: 5px;
+	display: block;
+}
+
+#welcome .viewmore {
+	bottom: 5%;
+	text-align: center;
+	left: 0;
+}
+
+#welcome .viewmore a {
+	display: inline-block;
+	background: url(../img/btn-viewmoredown.png) bottom center no-repeat;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#welcome .viewmore span{
+	border-radius: 3px;
+	line-height: 60px;
+	padding: 22px 30px;
+	background: #dc7725;
+	font-size: 14px;
+	color: white;
+	font-family: 'Fjalla One',sans-serif;
+	letter-spacing: 2px;
+}
+
+#experience {
+	background: #e6e6e0;
+	font-family: 'Fjalla One',sans-serif;
+}
+
+#experience h2 {
+	text-transform: uppercase;
+	margin-top: 20%;
+	font-weight: 400;
+	letter-spacing: 4px;
+	font-size: 17px;
+	line-height: 30px;
+	color: #85857b;
+	margin-bottom: 3%;
+}
+
+#experience h1 {
+	text-transform: uppercase;
+	color: #343433;
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: 700;
+	margin-bottom: 5%;
+	letter-spacing: 10px;
+}
+
+#experience .heading-sep {
+	background: #c9c9c2;
+	width: 110px;
+	height: 5px;
+	display: inline-block;
+}
+
+#experience p {
+	font-size: 16px;
+	color: #646461;
+	line-height: 40px;
+	padding: 50px;
+	margin-left: 45px;
+	text-align: left;
+	font-family: 'Open Sans',sans-serif;
+}
+#experience a {
+	text-decoration: none;
+	line-height: 60px;
+	padding: 15px 30px;
+	background: #dc7725;
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 3px;
+	font-family: 'Fjalla One',sans-serif;
+}
+
+#feature-places img {
+	object-fit: cover;
+	width: 100%;
+	height: 400px;
+}
+
+.nopadding {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#feature-places .place {
+	background-color: #F4F4F4;
+}
+
+#feature-places .text {
+	padding: 50px;
+}
+
+#feature-places h1 {
+	text-transform: uppercase;
+	font-family: 'Fjalla One',sans-serif;
+	margin-bottom: 30px;
+}
+
+#feature-places p {
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 13px;
+	color: #282525;
+	line-height: 28px;
+}
+
+#feature-places .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#feature-places .main-image {
+	opacity: 1;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+#feature-places .container-image:hover .main-image {
+	cursor: pointer;
+  	opacity: 0.3;
+}
+
+#feature-places .container-image:hover .middle {
+	cursor: pointer;
+  	opacity: 1;
+}
